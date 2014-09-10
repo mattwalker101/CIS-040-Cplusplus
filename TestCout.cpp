@@ -100,7 +100,8 @@ int main() {
 	cout << "\nPart 6 - using setprecision & fixed for formatting" << endl;
 	cout << "Radius\tLength\tArea" << endl;
 
-	cout << setprecision(2) << fixed << radius << "\t" << length << "\t" << area << endl;
+	cout << setprecision(2) << fixed << radius << "\t" << setprecision(2) << length << "\t" 
+		<< setprecision(2) << area << endl;
 
 	system("pause");
 }
