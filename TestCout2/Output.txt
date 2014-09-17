@@ -1,0 +1,63 @@
+
+                FIRST PART
+
+Enter the base pay amount: $200
+Enter the percentage paid on sales as decimal: .09
+Enter the weekly sales amount: $5000
+
+Their weekly pay will be: $650.00
+Press any key to continue . . .
+
+                SECOND PART
+
+General Crates, Inc.
+Crate Calculator
+
+********************
+Enter length (in cm): 10
+Enter width (in cm): 20
+Enter height (in cm): 10
+
+Volume is: 2000.00 cm^3
+
+Cost is:        $460.00
+Charge is:      $1000.00
+Profit is       $540.00
+
+
+Press any key to continue . . .
+
+                THIRD PART
+
+Enter an integer with 5 digits: 12321
+1 2 3 2 1
+Your number is a palindrome!
+
+After swapping 1st-3rd and 2nd-5th digits, the new number is: 3 1 1 2 2
+Your new number is NOT a palindrome!
+Press any key to continue . . .
+
+
+
+
+                FOURTH PART
+
+I will calculate distance between 2 points (x1, y1) and (x2, y2).
+What is x1? 2
+What is y1? 2
+What is x2? 7
+What is y2? 7
+Distance between (2, 2) and (7, 7) is: 7.07
+Press any key to continue . . .
+
+                FIFTH PART
+
+Please enter dimensions of your room in feet...
+        Length: 14
+        Width: 14
+        Height: 8
+
+Total rolls required = 8
+************************
+
+Press any key to continue . . .
