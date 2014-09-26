@@ -36,7 +36,7 @@ void SetSpeed() {
 		cout << "Enter a new current speed: ";
 		cin >> input;
 
-		if (!cin.good()) {	// if not an int
+		if (!cin.good()) {		// if not an int
 			cin.clear();
 			cin.ignore(10, '\n');
 			cout << "\nInvalid Input. Try Again.\n\n";
@@ -45,17 +45,17 @@ void SetSpeed() {
 		else {
 			if (input >= MINspeed && input <= MAXspeed) {
 				speed = input;
-				cout << "Legal speed " << speed << " set.\n";
+				cout << "Legal speed " << speed << " set.\n\n";
 				cin.ignore(10, '\n');
-				continue;
+				break;
 			}
 			else {
-				cout << "Speed " << input << " is out of legal range! Not set.\n";
+				cout << "Speed " << input << " is out of legal range! Not set.\n\n";
 				cin.ignore(10, '\n');
 				continue;
 			}
 		}
-
+		break;
 	}
 }
 
