@@ -8,11 +8,11 @@
 *
 *      Author: Matthew Walker
 
-*      Program Name:
+*      Program Name: Bicycle1 Assignment	
 *
-*      Date:
+*      Date: 9/25/14
 *
-*      Purpose:
+*      Purpose: Handling exceptions from user input, using function & header files
 *
 *
 *
