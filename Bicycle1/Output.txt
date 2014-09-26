@@ -1,0 +1,16 @@
+My Super Bicycle Program
+Initial values follow...
+Speed: 0        MINspeed: 10    MAXspeed: 40
+Enter a new current speed: 50
+Speed 50 is out of legal range! Not set.
+
+Enter a new current speed: 2
+Speed 2 is out of legal range! Not set.
+
+Enter a new current speed: 13
+Legal speed 13 set.
+
+Current speed = 13      MAXspeed = 40   MINspeed = 10
+Updated current speed is 33
+
+Press any key to continue . . .
