@@ -1,0 +1,52 @@
+BICYCLE2 LAB OUTPUT
+My Super Bicycle Program
+
+Setting speed to 33!
+Legal speed 33 set.
+
+Updated current speed is 33
+
+Setting speed to 44!
+Speed 44 is out of legal range! Not set.
+
+Updated current speed is 33
+
+Setting speed to 9!
+Speed 9 is out of legal range! Not set.
+
+Updated current speed is 33
+
+Setting speed to 12!
+Legal speed 12 set.
+
+Updated current speed is 12
+
+Setting speed to letter 'A' or 65!
+Speed 65 is out of legal range! Not set.
+
+Updated current speed is 12
+
+Setting speed to double type speed 33.5!
+Legal speed 33 set.
+
+Updated current speed is 33
+
+Current speed from int = 30
+Current speed from double = 25.4
+
+Default current speed = 20
+Default current speed set to 28 = 28
+
+speedInt = 15
+secondspeedInt = 18
+The swapped values are :
+speedInt = 18 and secondspeedInt = 15
+
+Distance Travelled...
+Initial s = 0
+Final s = 5
+
+Initial s = 5
+Final s = 10
+
+Press any key to continue . . .
