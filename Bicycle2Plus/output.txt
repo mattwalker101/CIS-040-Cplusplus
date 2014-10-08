@@ -1,0 +1,75 @@
+My Super Bicycle Program
+
+
+Display current speed as
+(M) MPH
+(K) convert to KPH
+Choose (M) or (K), or (X) to exit:  m
+
+Current speed is 33 MPH.
+
+Display current speed as
+(M) MPH
+(K) convert to KPH
+Choose (M) or (K), or (X) to exit:  k
+
+Current speed is 53.13 KPH
+With 3 digits precision = 53.130
+With 'int' casting = 53
+Adding .5 and casting = 53
+Using ceil() = 54
+Using floor() = 53
+
+Display current speed as
+(M) MPH
+(K) convert to KPH
+Choose (M) or (K), or (X) to exit:  t
+t is not valid. Try again!
+
+
+Display current speed as
+(M) MPH
+(K) convert to KPH
+Choose (M) or (K), or (X) to exit:  x
+Have a nice day!
+
+Selection Menu
+-------------
+
+1. Set Speed
+2. Get Speed
+3. Get MAX Speed
+4. Get MIN Speed
+5. Exit
+
+Your selection: 7
+
+Not a valid choice. Just use 1-5!
+
+
+Selection Menu
+-------------
+
+1. Set Speed
+2. Get Speed
+3. Get MAX Speed
+4. Get MIN Speed
+5. Exit
+
+Your selection: h
+
+Incorrect input. Try again!
+
+
+Selection Menu
+-------------
+
+1. Set Speed
+2. Get Speed
+3. Get MAX Speed
+4. Get MIN Speed
+5. Exit
+
+Your selection: 3
+Legal selection = 3
+Press any key to continue . . .
