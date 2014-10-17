@@ -1,0 +1,114 @@
+My Super Bicycle Program
+
+Enter a new current speed: 18
+Legal speed 18 set!
+
+
+Selection Menu
+-------------
+
+1. Set Speed
+2. Get Speed
+3. Get MAX Speed
+4. Get MIN Speed
+5. Exit
+
+Your selection: 1
+Enter a new current speed: 36
+Legal speed 36 set!
+
+
+Speed in MPH = 36
+
+Selection Menu
+-------------
+
+1. Set Speed
+2. Get Speed
+3. Get MAX Speed
+4. Get MIN Speed
+5. Exit
+
+Your selection: 2
+
+Display current speed as
+(M) MPH
+(K) convert to KPH
+Choose (M) or (K), or (X) to exit:  m
+
+Current speed is 36 MPH.
+
+Display current speed as
+(M) MPH
+(K) convert to KPH
+Choose (M) or (K), or (X) to exit:  k
+
+Current speed is 57.96 KPH
+
+Display current speed as
+(M) MPH
+(K) convert to KPH
+Choose (M) or (K), or (X) to exit:  x
+OK! Let's continue!
+
+Another selection (Y or N):
+[CLR SCREEN]
+
+Selection Menu
+-------------
+
+1. Set Speed
+2. Get Speed
+3. Get MAX Speed
+4. Get MIN Speed
+5. Exit
+
+Your selection: 3
+
+MAX Speed = 40
+
+Another selection (Y or N):
+[CLR SCREEN]
+
+Selection Menu
+-------------
+
+1. Set Speed
+2. Get Speed
+3. Get MAX Speed
+4. Get MIN Speed
+5. Exit
+
+Your selection: 4
+
+MIN Speed = 10
+
+Another selection (Y or N):
+[CLR SCREEN]
+
+Selection Menu
+-------------
+
+1. Set Speed
+2. Get Speed
+3. Get MAX Speed
+4. Get MIN Speed
+5. Exit
+
+Your selection: 5
+
+Bicycle Type Select-o-Matic!
+-----------------
+1. Road
+2. Mountain
+3. Racing
+4. Folding
+5. Electric
+
+Select a type of bike: 3
+
+You selected type - Racing
+
+Thank you! Goodbye!
+
+Press any key to continue . . .
