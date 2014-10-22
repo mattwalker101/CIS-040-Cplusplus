@@ -1,0 +1,37 @@
+Parameter-less constructor called.
+"selection" = 0
+Area Calculation Program
+------------------------
+
+        <R>ectangle
+        <T>riangle
+        Trape<Z>oid
+        <C>ircle
+
+        e<X>it program
+
+Selection : r
+Selection is valid!
+
+Inside ImplementSelection()!
+
+Inside Rectangle()!
+
+Continue (Y/N) ?
+Area Calculation Program
+------------------------
+
+        <R>ectangle
+        <T>riangle
+        Trape<Z>oid
+        <C>ircle
+
+        e<X>it program
+
+Selection : x
+Selection is valid!
+
+
+Goodbye!
+
+Press any key to continue . . .
