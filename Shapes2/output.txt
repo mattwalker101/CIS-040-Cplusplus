@@ -1,0 +1,128 @@
+"selection" = 0
+Area Calculation Program
+------------------------
+
+        <R>ectangle
+        <T>riangle
+        Trape<Z>oid
+        <C>ircle
+
+        e<X>it program
+
+Selection : r
+
+                ^ --------------------
+                | |                  |
+                A |                  |
+                | |                  |
+                v --------------------
+                  <---------B-------->
+SIDE A ... Enter a length (0 < length < 50): 5
+
+SIDE B ... Enter a length (0 < length < 50): -5
+length -5 is out of legal range! Not set.
+
+Enter a length (0 < length < 50): 55
+length 55 is out of legal range! Not set.
+
+Enter a length (0 < length < 50): 5
+
+
+This Rectangle has an AREA of ... 25.00
+
+Continue (Y/N) ?
+Area Calculation Program
+------------------------
+
+        <R>ectangle
+        <T>riangle
+        Trape<Z>oid
+        <C>ircle
+
+        e<X>it program
+
+Selection : t
+
+        ^ |\
+        | | \
+          |  \
+        A |   \
+          |    \
+        | |     \
+        v |      \
+          --------
+          <---B--->
+SIDE A ... Enter a length (0 < length < 50): 5
+
+SIDE B ... Enter a length (0 < length < 50): 5
+
+
+This Triangle has an AREA of ... 12.50
+
+Continue (Y/N) ?y
+Area Calculation Program
+------------------------
+
+        <R>ectangle
+        <T>riangle
+        Trape<Z>oid
+        <C>ircle
+
+        e<X>it program
+
+Selection : z
+
+            <- B1 ->
+            --------
+           /    ^   \
+          /     H    \
+         /      v     \
+         --------------
+         <---- B2 ---->
+SIDE B1 ... Enter a length (0 < length < 50): 5
+
+SIDE B2 ... Enter a length (0 < length < 50): 10
+
+HEIGHT H ... Enter a length (0 < length < 50): 5
+
+
+This Trapezoid has an AREA of ... 37.50
+
+Continue (Y/N) ?y
+Area Calculation Program
+------------------------
+
+        <R>ectangle
+        <T>riangle
+        Trape<Z>oid
+        <C>ircle
+
+        e<X>it program
+
+Selection : c
+
+                **
+            *        *
+          *             *
+         *               *
+         *        ---R---*
+         *               *
+          *             *
+            *         *
+                 **
+
+RADIUS R ... Enter a length (0 < length < 50): 5
+
+
+This Circle has an AREA of ... 78.54
+
+Continue (Y/N) ?n
+
+Rectangle area = 25.00
+Triangle area = 12.50
+Trapezoid area = 37.50
+Circle area = 78.54
+
+Goodbye!
+
+Press any key to continue . . .
