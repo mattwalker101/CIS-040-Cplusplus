@@ -1,0 +1,28 @@
+Constructor called.
+Name: Sue Jones
+SSN: 222-22-2222
+Base Salary: $300.00
+Gross Sales: $5000.00
+Commission Rate: 0.06
+
+Earnings: $600.00
+
+
+Set a new base salary: $1000
+
+Set a new first name: River
+
+Set a new last name: Song
+
+Set a new SSN (xxx-xx-xxxx): 123-45-6789
+Name: River Song
+SSN: 123-45-6789
+Base Salary: $1000.00
+Gross Sales: $5000.00
+Commission Rate: 0.06
+
+Earnings: $1300.00
+-----------------------
+
+Inside destructor!
+Press any key to continue . . .
