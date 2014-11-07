@@ -8,13 +8,14 @@ using namespace std;
 class Commission {
 
 public:
-	Commission(string, string, string, double, double, double);
-	string GetFirstName();
-	string GetLastName();
-	string GetSSN();
+	Commission(const string, const string, const string, double, double, double);
+	string GetFirstName() const;
+	string GetLastName() const;
+	string GetSSN() const;
+	// double GetBaseSalary() const;
 	double GetBaseSalary() const;
-	double GetGrossSales();
-	double GetCommissionRate();
+	double GetGrossSales() const;
+	double GetCommissionRate() const;
 	double Earnings();
 	void SetBaseSalary(double);
 	void SetFirstName(const string &);
