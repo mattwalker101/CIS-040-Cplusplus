@@ -24,15 +24,15 @@ Commission::Commission(const string fname, const string lname, const string ssn,
 	commissionRate = { cRate };
 };
 
-string Commission::GetFirstName() {
+string Commission::GetFirstName() const {
 	return firstName;
 };
 
-string Commission::GetLastName() {
+string Commission::GetLastName() const {
 	return lastName;
 };
 
-string Commission::GetSSN() {
+string Commission::GetSSN() const {
 	return SSN;
 };
 
@@ -41,11 +41,11 @@ double Commission::GetBaseSalary() const {
 	return baseSalary;
 };
 
-double Commission::GetGrossSales() {
+double Commission::GetGrossSales() const {
 	return grossSales;
 };
 
-double Commission::GetCommissionRate() {
+double Commission::GetCommissionRate() const {
 	return commissionRate;
 };
 
@@ -55,7 +55,7 @@ double Commission::Earnings() {
 
 void Commission::SetBaseSalary(double newsalary) {
 
-	if (newsalary <= 0.0) {
+	if (newsalary < 0.0) {
 		throw invalid_argument("Salary must be >= 0.0");
 	}
 	else
