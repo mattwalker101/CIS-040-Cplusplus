@@ -12,7 +12,7 @@
 *
 *      Date: 11/13/14
 *
-*      Purpose:
+*      Purpose: create Grades class using private and public functionality
 *
 *
 *
@@ -32,7 +32,7 @@ int main() {
 	Grades myClass;
 	cout << "Class number of myClass = " << myClass.classNumber << endl;
 
-	// myClass.className = 'C';
+	Grades::className = 'C';
 	Grades::DisplayClassName(myClass);
 
 	string tempName;
