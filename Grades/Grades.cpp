@@ -8,7 +8,7 @@
 #include "Grades.h"
 using namespace std;
 
-Grades::Grades(){
+Grades::Grades() {
 	classNumber = { 40 };
 	cout << "Automatically initialized fullClassName is ... "
 		<< fullClassName << "\n\n";
@@ -33,7 +33,7 @@ void Grades::DisplayClassName(Grades obj) {
 	cout << "Full Class Name = " << obj.fullClassName << endl;
 };
 
-string InputClassName() {
+string Grades::InputClassName() {
 	string name;
 
 	while (true) {
@@ -41,14 +41,11 @@ string InputClassName() {
 		getline(cin, name);
 		
 		if (name == "C++" || name == "C#") {
-			
 			return name;
 		}
 		else {
 			cout << "Invalid response! Only ""C++"" & ""C#"" are valid!\n";
 			continue;
 		}
-
-
 	}
 };
