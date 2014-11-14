@@ -1,0 +1,11 @@
+Count of the grades = 0
+Automatically initialized fullClassName is ...
+
+New default fullClassName is CIS
+Class number of myClass = 40
+Full Class Name = CIS
+Enter the full class name: c##
+Invalid response! Only C++ & C# are valid!
+Enter the full class name: C++
+New full class name is... C++
+Press any key to continue . . .
