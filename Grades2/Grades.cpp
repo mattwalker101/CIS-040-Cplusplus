@@ -55,8 +55,8 @@ string Grades::InputClassName() {
 void Grades::ProcessGrades() {
 	GetGrades();
 
-	array<int, gradeCounter> arr = {};
-	GetGrades(arr);
+	// array<int, gradeCounter> arr = {};
+	// GetGrades(arr);
 
 	double ave = GetAverage();
 	cout << "\nClass average is " << setprecision(2) << fixed
@@ -95,10 +95,12 @@ void Grades::GetGrades() {
 		}
 		cin.ignore(10, '\n');
 
+		cout << "User entered the following grades: ";
 		for (int i = 0; i < gradeCounter; i++)
 			cout << grades[i] << " ";
 		cout << endl;
 
+		/*
 		for (auto i = begin(grades); i != end(grades); ++i)
 			cout << *i << " ";
 		cout << endl;
@@ -106,8 +108,10 @@ void Grades::GetGrades() {
 		for (auto i : grades)
 			cout << i << " ";
 		cout << endl;
+		*/
 
 		// using RAND()
+		cout << "Randomly generated grades are: ";
 		for (size_t j = 0; j < 5; j++)
 			grades[j] = 50 + rand() % 51;
 
@@ -236,6 +240,7 @@ void Grades::GetGrades() {
 }
 */
 
+
 void Grades::GetGrades(array<int, gradeCounter> &a) {
 	do {
 		cout << "\nEnter five grades (50-100), seperated by spaces: ";
@@ -251,7 +256,7 @@ void Grades::GetGrades(array<int, gradeCounter> &a) {
 
 		bool b = true;
 
-		for (int i = 0; i < a.size(); i++) {
+		for (size_t i = 0; i < a.size(); i++) {
 			if (a[i] < 50 || a[i] > 100)
 				b = false;
 		}
@@ -259,7 +264,7 @@ void Grades::GetGrades(array<int, gradeCounter> &a) {
 		if (b == false) {
 			cout << "\nInput out of range 50-100. Try again!\n";
 			continue;
-		}
+		} 
 		else {
 			cout << "The input grades are: ";
 			for (int i = 0; i < gradeCounter; i++)
@@ -269,6 +274,8 @@ void Grades::GetGrades(array<int, gradeCounter> &a) {
 		}
 	} while (true);
 }
+
+
 
 double Grades::GetAverage() {
 	int total{};
