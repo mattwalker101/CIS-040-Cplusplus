@@ -1,0 +1,32 @@
+
+Enter the full class name: C++
+Enter semester (Spring or Fall): Fall
+Valid entry.
+Enter time (Day or Evening): Evening
+Valid entry.
+Enter textbook title: C++Awesome
+Enter textbook author: HelloGuy
+
+Enter textbook edition (2010, 2012, 2013): 2013
+Valid entry.
+Enter college name (Mission or WestValley): Mission
+Valid entry.
+Enter College City (Santa Clara or Saratoga): Saratoga
+Valid entry.
+
+
+-----Course Info-----
+
+Course Name:  C++
+Semester:  Fall
+Time:  Evening
+Textbook:  C++Awesome
+Author:  HelloGuy
+Year of Textbook:  2013 - Ninth
+College:  Mission
+City:  Saratoga
+---------------------
+
+Would you like to go again (Y or N)? n
+Goodbye!
+Press any key to continue . . .
