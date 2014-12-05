@@ -13,13 +13,13 @@ class ProcessArray {
 private:
 	const static int SIZE = 10;
 	int cArray[SIZE];
-	array <size_t, SIZE> cppArray;
+	array <int, SIZE> cppArray;
 
 	int BinarySearch(int[], int, int);
 	int LinearSearchCArray(int[], int, int);
 	int LinearSearchCppArray(array<int, SIZE>, int);
 	void BubbleSortCArrayDescending(int array[], int elems);
-	void SelectionSortCppArray(array<int, SIZE>, 6);
+	void SelectionSortCppArray(array<int, SIZE> &);
 
 public:
 	void UsingCTypeAlgorithms();
