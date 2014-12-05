@@ -32,17 +32,17 @@ void ProcessArray::UsingCTypeAlgorithms() {
 	}
 	
 	// use accumulate() and display sum of elements
-	cout << "\nSum of elements is: " << accumulate(begin(cArray), end(cArray), 0);
+	cout << "\nSum of elements is: " << accumulate(begin(cArray), end(cArray), 0) << endl;
 
 	// find max and min value
 	auto maxValue = max_element(begin(cArray), end(cArray));
-	cout << "The max value of cArray is: " << maxValue << endl;
+	cout << "The max value of cArray is: " << *maxValue << endl;
 
 	auto minValue = min_element(begin(cArray), end(cArray));
-	cout << "The min value of cArray is: " << minValue << endl;
+	cout << "The min value of cArray is: " << *minValue << endl;
 
 	// use find() to search for specific value
-	int * ptr, first{ 18 };
+	int * ptr, first{ 85 };
 	ptr = find(cArray, cArray + SIZE, first);
 
 	if (ptr < (cArray + SIZE))
@@ -84,7 +84,7 @@ void ProcessArray::UsingCTypeAlgorithms() {
 	cout << "\n\n";
 
 	// use is_sorted again
-	bool b = is_sorted(cArray, cArray + SIZE);
+	b = is_sorted(cArray, cArray + SIZE);
 	if (b == true)
 		cout << "cArray is sorted.\n";
 	else
@@ -104,13 +104,13 @@ void ProcessArray::UsingCTypeAlgorithms() {
 
 	// use binary_search()
 	cout << "Using binary_search()\n";
-	int key{ 55 };
+	int key{ 80 };
 	b = binary_search(cArray, cArray + SIZE, key);
 
 	if (b == true)
 		cout << "Element " << key << " found.\n";
 	else
-		cout << "Element " << key << "not found.\n";
+		cout << "Element " << key << " not found.\n";
 
 	//use BinarySearch()
 	key = { 62 };
@@ -128,7 +128,8 @@ void ProcessArray::UsingCTypeAlgorithms() {
 	cout << "\n\n";
 
 	// using LinearSearch
-	key = { 34 };
+	key = { 96 };
+	cout << "Using LinearSearch\n";
 	int element = LinearSearchCArray(cArray, key, SIZE);
 
 	if (element != -1)
@@ -142,6 +143,7 @@ void ProcessArray::UsingCTypeAlgorithms() {
 	for (auto i : cArray)
 		cout << i << " ";
 	cout << "\n\n";
+
 };
 
 int ProcessArray::BinarySearch(int arr[], int numElem, int value) {
@@ -163,7 +165,7 @@ int ProcessArray::BinarySearch(int arr[], int numElem, int value) {
 }
 
 int ProcessArray::LinearSearchCArray(int arr[], int key, int sizeofArray) {
-	for (size_t j = 0; j < sizeofArray; j++)
+	for (int j = 0; j < sizeofArray; j++)
 		if (arr[j] == key)
 			return j;
 	return -1;
@@ -175,7 +177,7 @@ void ProcessArray::BubbleSortCArrayDescending(int arr[], int elems) {
 
 	do {
 		swap = { false };
-		for (size_t count = 0; count < (elems - 1); count++) {
+		for (int count = 0; count < (elems - 1); count++) {
 			if (arr[count] < arr[count + 1]) {
 				temp = arr[count];
 				arr[count] = arr[count + 1];
