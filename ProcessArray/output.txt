@@ -1,0 +1,68 @@
+*** C TYPE ARRAY ***
+Size of cArray is: 10
+cArray initialized to: 0 0 0 0 0 0 0 0 0 0 0
+
+41 85 72 38 80 69 65 68 96 22
+Sum of elements is: 636
+The max value of cArray is: 96
+The min value of cArray is: 22
+Value 85 was found at index 1
+
+42 not found!
+
+There are 2 values of 85 found!
+There are 8 values greater than 50 in cArray.
+cArray is not sorted.
+cArray has been sorted!
+22 38 65 68 69 72 80 85 85 96
+
+cArray is sorted.
+Reversing the sort: 96 85 85 80 72 69 68 65 38 22
+
+Reverse the sort again: 22 38 65 68 69 72 80 85 85 96
+
+Using binary_search()
+Element 80 found.
+Number 62 does not exist in cArray.
+Using random_shuffle
+22 80 69 85 65 68 72 96 85 38
+
+Using LinearSearch
+Number 96 found at index 7
+cArray in descending order:
+96 85 85 80 72 69 68 65 38 22
+
+*** C++ TYPE ARRAY ***
+Size of cppArray is: 10
+cppArray initialized to: 0 0 0 0 0 0 0 0 0 0
+
+36 91 4 2 53 92 82 21 16 18
+Sum of elements is: 415
+The max value of cppArray is: 92
+The min value of cppArray is: 2
+Value 18 was found at index 9
+
+42 not found!
+
+There are 2 values of 91 found!
+
+There are 4 values greater than 60 in cppArray.
+cppArray is not sorted.
+cppArray has been sorted!
+2 4 16 18 21 53 82 91 91 92
+
+cppArray is sorted.
+Reversing the sort: 92 91 91 82 53 21 18 16 4 2
+
+Reverse the sort again: 2 4 16 18 21 53 82 91 91 92
+
+Using binary_search()
+Element 53 found.
+Using random_shuffle
+91 21 18 16 4 2 53 82 91 92
+
+Number 34 not found.
+cppArray in descending order:
+92 91 91 82 53 21 18 16 4 2
+
+Press any key to continue . . .
